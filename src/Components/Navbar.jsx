@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
 
 
-            <header className="bg-orange-100 w-full  px-6 p-2">
+            <header className="bg-orange-100 w-full  md:px-6 p-2">
                 <div className="flex items-center gap-x-4" >
                     <div className="flex px-2  bg-orange-300 p-1  rounded-full items-center  ">
                         <div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="gap-x-4  " >
-                    <div className="  flex gap-2 relative">
+                    <div className=" hidden  md:flex gap-2 relative">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 absolute ml-3 mt-4 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                         <div className="form-control  ">
 
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
 
 
-                    <div className="flex items-center bg-sky-50 gap-x-3 px-3 p-1 border-2 border-sky-200">
+                    <div className=" hidden md:flex items-center bg-sky-50 gap-x-3 px-3 p-1 border-2 border-sky-200">
                         <button className=" border-sky-300 font-bold text-xs border-4 rounded-full w-8 h-8 ">
 
                             4
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
 
                     <div>
-                        <button className=" font-extrabold text-lg border-2 border-black rounded-full w-10 h-10 bg-orange-200 " >A</button>
+                        <button className=" hidden md:block font-extrabold text-lg border-2 border-black rounded-full w-10 h-10 bg-orange-200 " >A</button>
                     </div>
 
                     <div>
