@@ -40,15 +40,17 @@ const Navbar = () => {
                         </button>
                         <p className="font-bold text-black">Quick Start</p>
                     </div>
+                    <div className="items-center justify-center flex gap-x-3">
+                        <div className="">
+                            <button className="font-extrabold text-lg border-2 border-black rounded-full w-8 h-8 sm:w-10 sm:h-10 bg-orange-200">A</button>
+                        </div>
 
-                    <div className="mt-2 sm:mt-0">
-                        <button className="font-extrabold text-lg border-2 border-black rounded-full w-8 h-8 sm:w-10 sm:h-10 bg-orange-200">A</button>
+                        <div className=" ">
+                            <button className="h-8 w-8 sm:h-10 sm:w-10 bg-black rounded-s-full px-2 sm:px-3 text-white"><IoFlashOutline size={18} sm:size={22} />
+                            </button>
+                        </div>
                     </div>
 
-                    <div className="mt-2 sm:mt-0">
-                        <button className="h-8 w-8 sm:h-10 sm:w-10 bg-black rounded-s-full px-2 sm:px-3 text-white"><IoFlashOutline size={18} sm:size={22} />
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>
